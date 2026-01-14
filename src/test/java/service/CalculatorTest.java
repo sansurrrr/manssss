@@ -19,7 +19,8 @@ class CalculatorTest {
 
     @Test
     void testMultiply() {
-        assertEquals(6, calc.multiply(2, 3));
+        // small change: use different inputs but same expected result
+        assertEquals(6, calc.multiply(3, 2));
     }
 
     @Test
